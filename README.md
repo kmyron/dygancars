@@ -1,2 +1,0 @@
-# dygancars
-Dygan Cars
