@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript" src="http://getbootstrap.com/dist/js/bootstrap.js"></script>
+         <link type="text/css" rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.css"/>
+        <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery-2.1.3.js" type="text/javascript"></script>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <title>Website Test Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage " content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="icon" href="images/favicon.ico">
+       </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                  <a class="navbar-brand" href="#">Dygan Cars</a>
+                </div>
+                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#">Galerry</a></li>
+                    </ul>
+                 </div>
+        </nav>
+        <!-- End Nav-->
+        <!--Carousel-->
+        <div class="jumbotron">
+            <div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="0"></li>
+                </ol>
+                
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active" data-toggle="modal" data-target="#LancerModal">
+                        <img class="img-responsive center-block" src="images/carousel/Lancer Evolution IX MR 2.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <h3>Lancer Evolution IX MR 2</h3>
+                        </div>
+                    </div>
+                    <div class="item" data-toggle="modal" data-target="#NissanModal">
+                        <img  class="img-responsive center-block" src="images/carousel/Nissan Skyline.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <h3>Nissan Skyline</h3> 
+                        </div>
+                    </div>
+                    <div class="item" data-toggle="modal" data-target="#PorsheModal" >
+                        <img class="img-responsive center-block" src="images/carousel/Porsche 911.jpg" alt=""/>
+                        <div class="carousel-caption">
+                            <h3>Porsche 911</h3>
+                        </div>
+                    </div>
+            </div>
+            
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>   
+        </div>
+        <!--End Carousel-->
+        <!--LancerModal-->
+        <div class="modal fade" id="LancerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Lancer Evolution IX MR 2</h4>
+                    </div>
+                    <div class="modal-body">
+                    SUPERDODY
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--EndLancerModal-->
+        
+        <!--NissanModal-->
+        <div class="modal fade" id="NissanModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Nissan Skyline</h4>
+                    </div>
+                    <div class="modal-body">
+                    Nissan Skyline
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--EndNissanModal-->
+        <div class="modal fade" id="PorsheModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Porsche 911</h4>
+                    </div>
+                    <div class="modal-body">
+                    Porsche 911
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </body>
+</html>
