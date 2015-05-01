@@ -4,11 +4,6 @@
  * and open the template in the editor.
  */
   $(document).ready(function(){
-                $(".item").click(function(){
-                    $(this).toggleClass("grey");
-                });    
-    
-    
-        });
-
-
+    $(".item").click(function(){
+        $(this).toggleClass("grey");
+     });    

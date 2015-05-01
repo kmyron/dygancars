@@ -1,0 +1,55 @@
+{
+  "name": "interdimensional",
+  "version": "0.0.2",
+  "description": "Spatial scrolling for your web pages.",
+  "keywords": [
+    "spatial",
+    "scrolling",
+    "spatial scrolling",
+    "scroll",
+    "mobile",
+    "device",
+    "orientation",
+    "acceleration",
+    "motion",
+    "gyroscope",
+    "ui",
+    "deviceorientation",
+    "devicemotion",
+    "device orientation",
+    "device motion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VodkaBears/Interdimensional.git"
+  },
+  "bugs": {
+    "url": "https://github.com/VodkaBears/Interdimensional/issues"
+  },
+  "author": {
+    "name": "Ilya Makarov",
+    "email": "dfrost.00@gmail.com",
+    "url": "https://github.com/VodkaBears"
+  },
+  "homepage": "http://vodkabears.github.io/interdimensional/",
+  "license": "MIT",
+  "main": "dist/interdimensional.js",
+  "devDependencies": {
+    "bower": "^1.4.1",
+    "grunt": "^0.4.5",
+    "grunt-autoprefixer": "^3.0.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-jshint": "^0.11.1",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-csscomb": "^3.0.0",
+    "grunt-githooks": "^0.3.1",
+    "grunt-jscs": "^1.6.0",
+    "grunt-mocha": "^0.4.12"
+  },
+  "scripts": {
+    "start": "npm install && ./node_modules/.bin/bower install && ./node_modules/.bin/grunt githooks",
+    "test": "./node_modules/.bin/grunt test"
+  }
+}
